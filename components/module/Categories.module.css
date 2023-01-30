@@ -1,0 +1,44 @@
+.container {
+  width: fit-content;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: #959da533 0px 8px 24px;
+  border-radius: 5px;
+}
+
+.container div {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  background-color: #024e5d;
+  padding-bottom: 0px;
+  border-radius: 5px;
+  width: 100px;
+  color: #deb887;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 320px;
+    flex-wrap: wrap;
+  }
+
+  .container div {
+    width: 150px;
+  }
+}
+
+/* 
+@media (max-width: 600px) {
+  .container {
+    width: 320px;
+    flex-wrap: wrap;
+  }
+
+  .container div {
+    width: 150px;
+  }
+}
+*/

@@ -1,0 +1,83 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.header {
+  margin: 40px 0px 20px;
+  font-size: 1.5rem;
+}
+
+.details {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 15px 0px;
+  box-shadow: #959da533 0px 8px 24px;
+}
+
+.details div {
+  display: flex;
+  align-items: baseline;
+  margin: 1rem 0px;
+}
+
+.details span {
+  color: #808080;
+  margin-left: auto;
+}
+
+.details p {
+  margin-left: 10px;
+}
+
+.descriptionTitle {
+  margin: 15px 0px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.descriptionText {
+  color: #656565;
+  text-align: justify;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.details .price {
+  display: flex;
+  align-items: center;
+}
+
+.price p,
+.price span {
+  font-size: 1.3rem;
+}
+
+.button {
+  background-color: #024e5d;
+  border: none;
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 50px 0px;
+  cursor: pointer;
+  color: burlywood;
+  transition: background 0.1s ease-in;
+}
+
+.button:hover {
+  background-color: #03697e;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 15px;
+  }
+}

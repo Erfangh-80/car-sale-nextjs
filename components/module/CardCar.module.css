@@ -1,0 +1,48 @@
+.container {
+  width: fit-content;
+  padding: 10px;
+  margin: 15px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: #959da533 0px 8px 24px;
+}
+
+.image {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.title {
+  margin: 10px 0px;
+}
+
+.detail {
+  font-size: 0.85rem;
+  margin: 5px 0px;
+  color: #4f4f4f;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.1rem 0px 5px;
+}
+
+.price {
+  background-color: #024e5d;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: burlywood;
+}
+
+.location {
+  display: flex;
+  align-items: flex-end;
+}
+
+.location p {
+  margin-right: 5px;
+}
+
